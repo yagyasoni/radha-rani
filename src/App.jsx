@@ -21,7 +21,12 @@ import services4 from "./assets/services4.svg";
 import bg2 from "./assets/bg2.svg";
 import bg3 from "./assets/bg3.svg";
 import bg1 from "./assets/bg1.svg";
-
+import services5 from "./assets/services5.jpg";
+import services6 from "./assets/services6.jpg";
+import services7 from "./assets/services7.jpg";
+import services8 from "./assets/services8.jpg";
+import services9 from "./assets/services9.jpg";
+import services10 from "./assets/services10.jpg";
 export default function App() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -267,12 +272,12 @@ export default function App() {
               { img: services2, title: "Marriage" },
               { img: services3, title: "Annual Function" },
               { img: services4, title: "Conference" },
-              { img: "", title: "Social Celebration" },
-              { img: "", title: "Functions in Clubs" },
-              { img: "", title: "Anniversary" },
-              { img: "", title: "Schools/College" },
-              { img: "", title: "Birthday Parties" },
-              { img: "", title: "Catering Packages" },
+              { img: services10, title: "Social Celebration" },
+              { img: services5, title: "Functions in Clubs" },
+              { img: services6, title: "Anniversary" },
+              { img: services7, title: "Schools/College" },
+              { img: services8, title: "Birthday Parties" },
+              { img: services9, title: "Catering Packages" },
             ].map((service, index) => (
               <div
                 key={index}
